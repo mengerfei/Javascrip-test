@@ -8,7 +8,12 @@ chrome
 ## 代码编辑器
 
 ATom
+
 WebStorm
+
 sublime
+
 window记事本
+
 VScode Visual Studio Code
+
