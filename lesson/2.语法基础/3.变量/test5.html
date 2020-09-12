@@ -7,12 +7,12 @@
 </head>
 <body>
     <script>
-        // 一个变量，用于记录一个矩形(rectangle)的宽度(width)
-        var rectWidth = 100;
+        var a = "hello";
+        var b = a;//将变量a的数据复制到变量b中
+        console.log(a,b); // hello hello 
+        b = "world";//不会影响a
+        console.log(a, b); // hello world
 
-        //等效于 var rectWidth; rectWidth = 100;
-
-        // console.log(rectWidth)
 
     </script>
 </body>

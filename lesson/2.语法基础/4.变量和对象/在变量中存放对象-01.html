@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = "53165fghd";
+        a = 265;
+
+        var user = {
+            account: "abc",
+            pwd: "123456",
+            gender: "男",
+            isVip: false,
+            age: 18
+        };
+        console.log(user.pwd);// 123456
+
+        // 将密码改为654321
+        user.pwd = "654321";
+
+        console.log(user.pwd);// 654321
+
+        user.tradePwd = "654377721";
+
+        console.log(user.tradePwd);// 654777321  相当于给user添加了tardePwd属性
+
+        var user2;
+
+        user2.account = "abcdef";//报错，原始类型undefined中不可以有属性 
+
+
+
+    </script>
+</body>
+</html>
