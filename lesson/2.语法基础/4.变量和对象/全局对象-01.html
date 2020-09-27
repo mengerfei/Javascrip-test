@@ -7,7 +7,35 @@
 </head>
 <body>
     <script>
-        console.log(window);
+        // console.log(window);
+        // var a ;  
+        // console.log(window.a); // 因为，window之前没有属性a，a成为了window对象的属性
+
+        // var console = "111";
+        // console.log("window"); // 程序报错
+        // alert(window.console);
+
+        //  var console = undefined;
+        //     console.log(window.console); // 由于，console之前有赋值，因此，覆盖了window的属性console
+
+        // var console;
+        // console.log(window.console); //由于，console没有赋值，因此，没有覆盖window的属性console
+
+
+        // why?
+        // var name;
+        // console.log(name);//  
+        // console.log(typeof name) // string 
+        // 原因： name 为window 自有属性 window.name = ""
+        
+        
+        // var name = "undefined"; //name 属性比较特殊，赋值的任何内容，都会被转化为字符串
+        // console.log(name);// "undefined" 
+        // console.log(typeof name) // string 
+        // 原因： name 为window 自有属性 window.name = ""
+
+        var alert = undefined;
+        console.log(typeof alert); // undefined
     </script>
 </body>
 </html>
