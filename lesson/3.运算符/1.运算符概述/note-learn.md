@@ -64,4 +64,3 @@ console.log函数调用的返回结果为undefined
 > chrome浏览器控制台的环境是REPL环境
 > REPL：Read Eval Print loop, 读-执行-打印-循环
 > 当直接在控制台书写代码时，除了运行代码之外，还会输出表达式的返回值
-> 
